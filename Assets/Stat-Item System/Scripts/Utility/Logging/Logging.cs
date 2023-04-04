@@ -33,7 +33,7 @@ public class Logging : ScriptableObject
     {
         if (showLogs)
         {
-            Debug.LogError($"<color={hexColor}>{prefix}: {message} | Sender: {sender.name}", sender);
+            Debug.LogError($"<color={hexColor}>{prefix}: {message} | Sender: {sender.name}</color>", sender);
         }
     }
 
@@ -41,7 +41,7 @@ public class Logging : ScriptableObject
     {
         if (showLogs)
         {
-            Debug.LogError($"<color={hexColor}>{prefix}: {message} | Sender: {sender.GetType()}");
+            Debug.LogError($"<color={hexColor}>{prefix}: {message} | Sender: {sender.GetType()}</color>");
         }
     }
 
@@ -49,7 +49,7 @@ public class Logging : ScriptableObject
     {
         if (showLogs)
         {
-            Debug.LogWarning($"<color={hexColor}>{prefix}: {message} | Sender: {sender.name}", sender);
+            Debug.LogWarning($"<color={hexColor}>{prefix}: {message} | Sender: {sender.name}</color>", sender);
         }
     }
 
@@ -57,7 +57,7 @@ public class Logging : ScriptableObject
     {
         if (showLogs)
         {
-            Debug.LogWarning($"<color={hexColor}>{prefix}: {message} | Sender: {sender.GetType()}");
+            Debug.LogWarning($"<color={hexColor}>{prefix}: {message} | Sender: {sender.GetType()}</color>");
         }
     }
 
