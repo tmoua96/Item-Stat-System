@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae6dec788055e154296376d722797584, type: 3}
+  m_Name: Use_Damage_Poison
+  m_EditorClassIdentifier: 
+  amount: 0.1
+  damageType: 1
+  healthPercentType: 1
+  targetStat: {fileID: 11400000, guid: 64217f7dc4d74c9468d1d6905de3ef4e, type: 2}

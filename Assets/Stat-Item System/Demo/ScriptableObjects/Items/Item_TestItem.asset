@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 195e67f34f8afb74a9f3b711a8855272, type: 3}
+  m_Name: Item_TestItem
+  m_EditorClassIdentifier: 
+  id: 779b558c-e1e7-4063-87d9-50554ee5fe3e
+  name: Test Item
+  description: Test item.
+  icon: {fileID: 21300000, guid: f09eae8c0ea04254b90c5386a034a225, type: 3}
+  itemPrefab: {fileID: 1259392919135328, guid: 30898bb5526f8f542aa93bfaac20d996, type: 3}
+  stackable: 1
+  maxStackAmount: 99
+  unique: 0
+  price: 0
+  uses: []
+  generateIdWhenNotEmpty: 0

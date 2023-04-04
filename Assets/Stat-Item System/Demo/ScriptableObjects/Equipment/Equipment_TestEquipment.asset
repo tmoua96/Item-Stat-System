@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 195e67f34f8afb74a9f3b711a8855272, type: 3}
+  m_Name: Equipment_TestEquipment
+  m_EditorClassIdentifier: 
+  name: Test Equipment
+  description: A piece of test equipment.
+  icon: {fileID: 0}
+  itemPrefab: {fileID: 0}
+  stackable: 0
+  maxStackAmount: 1
+  unique: 0
+  price: 0
+  uses:
+  - {fileID: 11400000, guid: 7fa74e858ea48eb47a69900dcb142a33, type: 2}
+  generateIdWhenNotEmpty: 0
