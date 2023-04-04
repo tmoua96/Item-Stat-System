@@ -1,7 +1,7 @@
 # Item-Stat-System
 This is a system that includes basic functionalities of items, inventories, stats, status effects, 
 use effects/actions, and logging. A lot of the architecture revolves around scriptable objects.
-Much of the used data can be created through right clicking -> Create -> <some scriptable object>.
+Much of the used data can be created through right clicking -> Create -> &lt;some scriptable object&gt;.
 There's also a demo scene along with some scriptable objects showing off how everything works.
 References can be checked in UI elements and the SaveableEntity gameObject.
 
@@ -20,7 +20,7 @@ be things like the CharacterHealthDataGameEvent SO (named "Player1HealthChanged"
 CharacterStats component and the player's UI. In OnEnable, the UI might call AddListener() and update its elements
 when the InventoryManager calls Raise(). For implementation details, check the scripts 
 PlayerUIManager and CharacterStats(in the CurrentHealth setter and TakeDamage). To create events after importing
-SO Architecture, go to ContextMenu -> Game Events -> Custom -> <EventType>
+SO Architecture, go to ContextMenu -> Game Events -> Custom -> &lt;EventType&gt;
 
 Stats
 -------------------
@@ -54,7 +54,7 @@ Status Effects
 - Components: 
     - StatusEffectManager - attached to anything that will be affected by status effects.
 - Created through ContextMenu -> Stats -> Status Effect
-    - Related: ContextMenu -> Use Action -> Status Effects -> <StatusEffectUse>
+    - Related: ContextMenu -> Use Action -> Status Effects -> &lt;StatusEffectUse&gt;
 - Status effects can be applied using the StatusEffectUse SO.
 - There are apply, update, and remove uses which get called at specific times.
 
